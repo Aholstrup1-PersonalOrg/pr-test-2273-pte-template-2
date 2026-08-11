@@ -2,5 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/OleWunschmann/AL-Go/enhance-customALGoFiles-feature/Actions/.Modules/settings.schema.json",
   "type": "PTE",
   "templateUrl": "https://github.com/OleWunschmann/AL-Go@enhance-customALGoFiles-feature",
-  "templateSha": "ea2688ea21b5a7d1c209a12ba2cd8366ccdd82fe"
+  "templateSha": "ea2688ea21b5a7d1c209a12ba2cd8366ccdd82fe",
+  "customALGoFiles": {
+    "filesToInclude": [
+      {
+        "sourceFolder": "First",
+        "filter": "a.ps1",
+        "destinationFolder": ".github/collision",
+        "destinationName": "same.ps1"
+      },
+      {
+        "sourceFolder": "Second",
+        "filter": "b.ps1",
+        "destinationFolder": ".github/collision",
+        "destinationName": "same.ps1"
+      }
+    ],
+    "filesToExclude": []
+  }
 }
